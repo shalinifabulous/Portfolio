@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e74c35c75.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="mainlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm<span> Shalini</span><br>Gupta From India</h1>
+            </div>
+        </div>
+    </div>
+    <!------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="may5.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quia distinctio quis soluta
+                        nobis maxime dolore omnis hic corrupti perspiciatis mollitia eius necessitatibus a repellat
+                        harum incidunt consequuntur non, sunt temporibus assumenda optio. Adipisci in dolorum atque est,
+                        nihil, sed neque itaque molestias dicta amet corrupti pariatur porro sint mollitia nesciunt
+                        alias numquam eveniet error facere magni eum voluptate assumenda.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Data Structures & Algorithm</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June-August 2024</span><br>Internship at IBM SkillsBuild</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br>B-Tech from Galgotias College of Engineering & Technology</li>
+                            <li><span>2022</span><br>Intermediate from Girls High School,Prayagraj</li>
+                            <li><span>2020</span><br>High School from Girls High School,Prayagraj</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------Skills--------->
+    <div id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <div class="card">
+            <img src="javalogo.jpg" alt="Java Logo" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, tempora!</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="card">
+            <img src="htmlogo.jpg" alt="HTML Logo" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, tempora!</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="card">
+            <img src="csslogo.jpg" alt="CSS Logo" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, tempora!</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div class="card">
+            <img src="reactlogo.jpg" alt="React JS Logo" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, tempora!</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+    </div>
+      
+
+
+    <!-------------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work8.png">
+                    <div class="layer">
+                        <h3>3-D Model</h3>
+                        <p>A 3D sphere model with four vibrant color segments, created using Java's graphical libraries,
+                            showcasing interactive rendering capabilities.</p>
+                        <a href="http://127.0.0.1:3002/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work7.png">
+                    <div class="layer">
+                        <h3>Profile Card</h3>
+                        <p>A stylish profile card featuring social media icons, a grayscale image, and name overlay,
+                            designed using HTML and CSS.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.png">
+                    <div class="layer">
+                        <h3>Mobile-Tab Navigation</h3>
+                        <p>The image showcases a sleek mobile tab navigation design using HTML and CSS, featuring
+                            "Home," "Work," "Blog," and "About Us" options.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work9.png">
+                    <div class="layer">
+                        <h3>Music-Player</h3>
+                        <p>The image showcases a clean music player interface designed with HTML and CSS, featuring a
+                            playlist and playback controls.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>chinkiwork@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>+91-7307873066</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/chinki.g_"><i class="fa-brands fa-instagram"></i></a>
+                        <!--<a href="https://www.linkedin.com/in/shalini-gupta-414298310/"><i class="fa-brands fa-linkedin"></i></a>-->
+                        <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                   <a href="ShaliniGupta_InternshalaResume (3).pdf" download class="btn btn2">Download CV</a> 
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="Copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Shalini.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+       
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+/*---------skills-----*/
+        const cards = document.querySelectorAll('.card');
+
+    // Add hover event listeners
+    cards.forEach(card => {
+      card.addEventListener('mouseenter', e => handleHover(e, card, true));
+      card.addEventListener('mouseleave', e => handleHover(e, card, false));
+    });
+
+    function handleHover(event, card, isEntering) {
+  const rect = card.getBoundingClientRect();
+  const x = event.clientX - rect.left; // X position within the card
+  const y = event.clientY - rect.top;  // Y position within the card
+
+  const isTop = y < rect.height / 4;
+  const isBottom = y > (rect.height * 3) / 4;
+  const isLeft = x < rect.width / 4;
+  const isRight = x > (rect.width * 3) / 4;
+
+  if (isEntering) {
+    if (isTop) card.style.transform = 'rotateX(-15deg)';
+    else if (isBottom) card.style.transform = 'rotateX(15deg)';
+    else if (isLeft) card.style.transform = 'rotateY(-15deg)';
+    else if (isRight) card.style.transform = 'rotateY(15deg)';
+  } else {
+    // Reset the transform after a slight delay for smoother effect
+    setTimeout(() => {
+      card.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    }, 100); // Adjust the delay as needed
+  }
+}
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-250px";
+        }
+    </script>
+</body>
+
+</html>
